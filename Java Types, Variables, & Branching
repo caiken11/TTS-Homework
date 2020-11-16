@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Test {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in); 
+		System.out.println("Enter type of animal");
+		String firstAnimal = scanner.nextLine();
+		System.out.println("Enter another type of animal");
+		String secondAnimal = scanner.nextLine();
+		System.out.println("Enter type of clothing");
+		String firstClothing = scanner.nextLine();
+		System.out.println("Enter a noun");
+		String noun = scanner.nextLine();
+		
+		System.out.println("It's raining "+ firstAnimal +"s and " + secondAnimal + "s outside. Be sure to take your " + firstClothing + " and " + noun + " when you leave.");  // Output user input
+	}
+}
